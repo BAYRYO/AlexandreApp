@@ -27,19 +27,14 @@ C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\f\
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Semibold.ttf
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
-C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon.png
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon_background.png
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon_foreground.png
-C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon.png
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon_background.png
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon_foreground.png
-C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon.png
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon_background.png
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon_foreground.png
-C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon.png
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon_background.png
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon_foreground.png
-C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon.png
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_background.png
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_foreground.png
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\mauiimage.stamp
@@ -1030,7 +1025,6 @@ C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\stamp\_Convert
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\favorite_icon.png
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\favorite_icon.png
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\favorite_icon.png
@@ -1051,3 +1045,9 @@ C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\home_icon.png
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\home_icon.png
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\home_icon.png
+C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon.jpg
+C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon.jpg
+C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon.jpg
+C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon.jpg
+C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon.jpg
+C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll

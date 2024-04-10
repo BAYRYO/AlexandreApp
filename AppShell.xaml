@@ -6,12 +6,21 @@
     xmlns:views="clr-namespace:AlexandreApp.Views"
     FlyoutBehavior="Disabled"
     Title="AlexandreApp">
+
+    <TabBar Title="BottomBar" FlyoutDisplayOptions="AsMultipleItems">
+        <Tab Title="Home" Icon="home_icon.svg">
+            <ShellContent ContentTemplate="{DataTemplate views:HomePage}"/>
+        </Tab>
+        <Tab Title="Search" Icon="search_icon.svg">
+            <ShellContent ContentTemplate="{DataTemplate views:SearchPage}"/>
+        </Tab>
+        <Tab Title="Favorite" Icon="favorite_icon.svg">
+            <ShellContent ContentTemplate="{DataTemplate views:FavoritePage}"/>
+        </Tab>
+        <Tab Title="Settings" Icon="settings_icon.svg">
+            <ShellContent ContentTemplate="{DataTemplate views:SettingsPage}"/>
+        </Tab>
+    </TabBar>
     
-    <FlyoutItem Title="BottomBar" FlyoutDisplayOptions="AsMultipleItems">
-        <ShellContent Title="Home" ContentTemplate="{DataTemplate views:MainPage}" Icon="home_icon.svg"/>
-        <ShellContent Title="Search" ContentTemplate="{DataTemplate views:MainPage}" Icon="search_icon.svg"/> 
-        <ShellContent Title="Favorite" ContentTemplate="{DataTemplate views:MainPage}" Icon="favorite_icon.svg"/>
-        <ShellContent Title="Settings" ContentTemplate="{DataTemplate views:MainPage}" Icon="settings_icon.svg"/>
-    </FlyoutItem>
-    
+
 </Shell>
