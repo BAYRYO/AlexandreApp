@@ -72,6 +72,10 @@
               "target": "Package",
               "version": "[8.0.7, )"
             },
+            "Microsoft.Maui.Essentials": {
+              "target": "Package",
+              "version": "[8.0.20, )"
+            },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
@@ -114,6 +118,10 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Microsoft.Maui.Essentials": {
+              "target": "Package",
+              "version": "[8.0.20, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -158,6 +166,10 @@
               "target": "Package",
               "version": "[8.0.7, )"
             },
+            "Microsoft.Maui.Essentials": {
+              "target": "Package",
+              "version": "[8.0.20, )"
+            },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
@@ -201,6 +213,10 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Microsoft.Maui.Essentials": {
+              "target": "Package",
+              "version": "[8.0.20, )"
             }
           },
           "imports": [

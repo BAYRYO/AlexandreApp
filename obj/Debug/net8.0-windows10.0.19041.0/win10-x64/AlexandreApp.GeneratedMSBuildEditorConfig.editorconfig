@@ -42,6 +42,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = AlexandreApp.Views.Favorit
 build_metadata.AdditionalFiles.TargetPath = Views\FavoritePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\FavoritePage.xaml
 
+[C:/Users/alexb/source/repos/AlexandreApp/Views/GifPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AlexandreApp.Views.GifPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\GifPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\GifPage.xaml
+
 [C:/Users/alexb/source/repos/AlexandreApp/Views/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AlexandreApp.Views.HomePage.xaml

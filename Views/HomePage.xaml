@@ -5,6 +5,33 @@
              x:Class="AlexandreApp.Views.HomePage"
              >
     <ContentPage.Content>
+        <ScrollView>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
+                <Label Text="Bienvenue sur votre application !" FontSize="24" HorizontalOptions="Center" />
+                <Label Text="Voici quelques exemples de contrôles disponibles dans MAUI" FontSize="18" HorizontalOptions="Center" />
         
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Image Source="image1.jpg" HeightRequest="100" WidthRequest="100"/>
+                    <Image Source="image2.jpg" HeightRequest="100" WidthRequest="100"/>
+                </StackLayout>
+
+                <Button Text="Voir le GIF" Clicked="OnGifButtonClicked" />
+            
+                <!-- Ajout du CarouselView -->
+                <CarouselView x:Name="carouselView"
+                              ItemsSource="{Binding CarouselItems}"
+                              HorizontalOptions="FillAndExpand" 
+                              VerticalOptions="FillAndExpand">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout>
+                                <Image Source="{Binding Image}" Aspect="AspectFill" />
+                                <Label Text="{Binding Title}" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                            </StackLayout>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

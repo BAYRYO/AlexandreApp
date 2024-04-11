@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlexandreApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8f2386dc82a73aa3a5a3f9ce7f61bd8dd4366a01")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6926f8a31d1348b541f422bd534091cd33e155a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlexandreApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlexandreApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
