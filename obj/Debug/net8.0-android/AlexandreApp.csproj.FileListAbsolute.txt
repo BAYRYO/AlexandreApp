@@ -1041,5 +1041,6 @@ C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\stamp\_Convert
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\resizetizer\r\drawable\dune.gif
+C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\AlexandreApp.sourcelink.json
+C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll

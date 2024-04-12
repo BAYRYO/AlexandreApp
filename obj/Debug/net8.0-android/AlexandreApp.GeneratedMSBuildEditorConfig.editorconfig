@@ -58,6 +58,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = AlexandreApp.Views.HomePag
 build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
 
+[C:/Users/alexb/source/repos/AlexandreApp/Views/MovieDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AlexandreApp.Views.MovieDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MovieDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MovieDetailPage.xaml
+
 [C:/Users/alexb/source/repos/AlexandreApp/Views/SearchPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AlexandreApp.Views.SearchPage.xaml

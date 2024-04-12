@@ -1,13 +1,12 @@
-﻿using Microsoft.Maui.Controls;
-using System;
+﻿
+using AlexandreApp.Model;
 
 namespace AlexandreApp.Views
 {
     public partial class HomePage : ContentPage
     {
         public List<CarouselItem> CarouselItems { get; set; }
-   
-        public HomePage()
+        public HomePage() // Constructeur par défaut sans paramètres
         {
             InitializeComponent();
             LoadCarouselItems();
@@ -19,7 +18,7 @@ namespace AlexandreApp.Views
             CarouselItems = new List<CarouselItem>
             {
                 new CarouselItem { Title = "Image 1", Image = "image1.jpg" },
-                new CarouselItem { Title = "Image 2", Image = "image2.jpg" },
+                new CarouselItem { Title = "Image 2", Image = "image2.jpg" }
             };
 
             // Définir le contexte de liaison pour le CarouselView
@@ -31,11 +30,5 @@ namespace AlexandreApp.Views
             // Naviguer vers la page contenant le GIF
             await Navigation.PushAsync(new GifPage());
         }
-    }
-    // Classe de modèle pour les éléments du carrousel
-    public class CarouselItem
-    {
-        public string Title { get; set; }
-        public string Image { get; set; }
     }
 }

@@ -193,3 +193,4 @@ C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-windows10.0.19041.0\wi
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dune.scale-100.gif
+C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\AlexandreApp.sourcelink.json

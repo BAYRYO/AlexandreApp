@@ -310,3 +310,4 @@ C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-maccatalyst\maccatalys
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\AlexandreApp.genruntimeconfig.cache
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\AlexandreApp.dll
 C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\dune.gif
+C:\Users\alexb\source\repos\AlexandreApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\AlexandreApp.sourcelink.json
