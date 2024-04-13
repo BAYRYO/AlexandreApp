@@ -15,7 +15,7 @@
             <ShellContent ContentTemplate="{DataTemplate views:SearchPage}"/>
         </Tab>
         <Tab Title="Favorite" Icon="favorite_icon.svg">
-            <ShellContent ContentTemplate="{DataTemplate views:FavoritePage}"/>
+            <ShellContent ContentTemplate="{DataTemplate views:AddMoviePage}"/>
         </Tab>
         <Tab Title="Settings" Icon="settings_icon.svg">
             <ShellContent ContentTemplate="{DataTemplate views:SettingsPage}"/>
