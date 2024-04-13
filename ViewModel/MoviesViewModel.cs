@@ -26,11 +26,19 @@ namespace AlexandreApp.ViewModel
             }
         }
         public ICommand MovieTappedCommand { get; }
+        public ICommand FavoriteMovieTappedCommand { get; }
         private ObservableCollection<Movie>? _movies;
         public ObservableCollection<Movie>? Movies
         {
             get { return _movies; }
             set { _movies = value; NotifyPropertyChanged(); }
+        }
+        
+        private ObservableCollection<Movie> _favoriteMovies;
+        public ObservableCollection<Movie> FavoriteMovies
+        {
+            get { return _favoriteMovies; }
+            set { _favoriteMovies = value; NotifyPropertyChanged(); }
         }
         
         private Movie? _selectedMovie;
@@ -45,10 +53,12 @@ namespace AlexandreApp.ViewModel
 
         public MoviesViewModel()
         {
+            FavoriteMovies = new ObservableCollection<Movie>();
             if (Movies == null)
             {
                 LoadMoviesFromApi();
             }
+            FavoriteMovieTappedCommand = new Command<Movie>(OnMovieTapped);
             MovieTappedCommand = new Command<Movie>(OnMovieTapped);
         }
         
@@ -70,8 +80,6 @@ namespace AlexandreApp.ViewModel
         private void OnMovieTapped(Movie selectedMovie)
         {
             SelectedMovie = selectedMovie;
-            
-            // Déclencher l'événement MovieSelected
             MovieSelected?.Invoke(this, selectedMovie);
         }
         
@@ -97,6 +105,44 @@ namespace AlexandreApp.ViewModel
             
             // Vous pouvez également déclencher un événement PropertyChanged pour mettre à jour l'affichage
             NotifyPropertyChanged(nameof(Movies));
+        }
+        
+        public void ToggleFavorite(Movie movie)
+        {
+            // Vérifiez si le film est déjà dans la liste des favoris
+            if (FavoriteMovies.Contains(movie))
+            {
+                // Supprimez le film de la liste des favoris
+                FavoriteMovies.Remove(movie); }
+            else
+            {
+                // Ajoutez le film à la liste des favoris
+                FavoriteMovies.Add(movie);
+            }
+            Console.WriteLine("FavoriteMovies: " + FavoriteMovies);
+            // Vous pouvez également déclencher un événement PropertyChanged pour mettre à jour l'affichage
+            NotifyPropertyChanged(nameof(FavoriteMovies));
+        }
+
+        public bool IsFavorite(Movie movie)
+        {
+            // Vérifiez si le film est dans la liste des favoris
+            return FavoriteMovies.Contains(movie);
+        }
+
+        public void RemoveMovie(Movie movie)
+        {
+            if (Movies != null)
+            {
+                // Supprimez le film de la liste
+                Movies.Remove(movie);
+                if (FavoriteMovies.Contains(movie))
+                {
+                    FavoriteMovies.Remove(movie);
+                }
+                // Vous pouvez également déclencher un événement PropertyChanged pour mettre à jour l'affichage
+                NotifyPropertyChanged(nameof(Movies));
+            }
         }
 
     }

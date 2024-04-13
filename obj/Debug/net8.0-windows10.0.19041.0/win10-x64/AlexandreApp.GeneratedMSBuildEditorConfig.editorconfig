@@ -42,6 +42,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = AlexandreApp.Views.AddMovi
 build_metadata.AdditionalFiles.TargetPath = Views\AddMoviePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AddMoviePage.xaml
 
+[C:/Users/alexb/source/repos/AlexandreApp/Views/FavoritePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AlexandreApp.Views.FavoritePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FavoritePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FavoritePage.xaml
+
 [C:/Users/alexb/source/repos/AlexandreApp/Views/GifPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AlexandreApp.Views.GifPage.xaml
@@ -65,9 +71,3 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AlexandreApp.Views.SearchPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\SearchPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\SearchPage.xaml
-
-[C:/Users/alexb/source/repos/AlexandreApp/Views/SettingsPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = AlexandreApp.Views.SettingsPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\SettingsPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\SettingsPage.xaml

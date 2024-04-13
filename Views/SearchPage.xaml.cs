@@ -19,7 +19,7 @@ namespace AlexandreApp.Views
             viewModel.MovieSelected += OnMovieSelected;
         }
 
-        private async void OnMovieSelected(object sender, Movie e)
+        private async void OnMovieSelected(object? sender, Movie e)
         {
             // Naviguer vers la page de détail du film avec le film sélectionné
             await Navigation.PushAsync(new MovieDetailPage(e));
